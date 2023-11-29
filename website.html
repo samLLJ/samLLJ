@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #53ea5a;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #90e267;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    button {
+      background-color: #3498db;
+      color: rgb(124, 230, 232);
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    .game-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.3s ease;
+    }
+    .game-box:hover {
+      transform: scale(1.02);
+    }
+    .game-box img {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+    .game-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .game-details {
+      display: none;
+      font-size: 0.9rem;
+      margin-top: 5px;
+      color: #777;
+    }
+    .game-pros {
+      margin-top: 5px;
+      color: #555;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #0a0a0a;
+    }
+    th {
+      background-color: #a1e7e7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Gaming Info Tech</h1>
+    <button><a href="#section3"style="color: white; text-decoration: none;">Earnings</a></button>
+    <button><a href="list2.html" style="color: white; text-decoration: none;">BGMI</a></button>
+  </div>
+
+  <div class="container" id="section2">
+    <a href="https://www.battlegroundsmobileindia.com/" target="_blank" class="game-box">
+      <img class="image-top" src="bgmi.png" alt="BGMI">
+      <div>
+        <div class="game-name">BGMI (Battle Grounds Mobile India)</div>
+        <div class="game-details" id="bgmi-details">
+          <div class="game-pros">Pro: Jonathan Amaral</div>
+          <!-- Add more game details here if needed -->
+        </div>
+      </div>
+    </a>
+
+    <a href="https://playvalorant.com/en-us/?gad=1&gclid=CjwKCAjw5_GmBhBIEiwA5QSMxD1m17nP0NdDx3eviMSLcO9hOFMY0foNkiDvTld6Eqrit_QFDeLxgBoCEEQQAvD_BwE&gclsrc=aw.ds" target="_blank" class="game-box">
+      <img class="image-top" src="valo.png" alt="Valorant">
+      <div>
+        <div class="game-name">Valorant</div>
+        <div class="game-details" id="valo-details">
+          <div class="game-pros">Pro: Tyson Tenz Ngo</div>
+          <!-- Add more game details here if needed -->
+        </div>
+      </div>
+    </a>
+
+    <a href="https://www.konami.com/efootball/en/" target="_blank" class="game-box">
+      <img class="image-top" src="pes.png" alt="EFootball">
+      <div>
+        <div class="game-name">EFootball</div>
+        <div class="game-details" id="efootball-details">
+          <div class="game-pros">Pro: Vinin Tomboy</div>
+          <!-- Add more game details here if needed -->
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="container" id="section3">
+    <table>
+      <tr>
+        <th>Games</th>
+        <th>Pro's in these games</th>
+      </tr>
+      <tr>
+        <td>BGMI</td>
+        <td>Jonathan Amaral</td>
+      </tr>
+      <tr>
+        <td>Valorant</td>
+        <td>Tyson Tenz Ngo</td>
+      </tr>
+      <tr>
+        <td>EFootball</td>
+        <td>Vinin Tomboy</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container" id="more-info">
+    <p><h1>Average Earnings of Esports Players</h1>
+
+        <table border="1">
+            <tr>
+                <th>Game</th>
+                <th>Earnings</th>
+            </tr>
+            <tr>
+                <td>BGMI</td>
+                <td>₹80K-90K</td>
+            </tr>
+            <tr>
+                <td>Valorant</td>
+                <td>$5,000 USD (INR 4,13,142)</td>
+            </tr>
+            <tr>
+                <td>EFootball</td>
+                <td>50K-70K</td>
+            </tr>
+            <tr>
+                <td>Clash Of Clans</td>
+                <td>50K-60K</td>
+            </tr>
+            <tr>
+                <td>FIFA</td>
+                <td>$105,000</td>
+            </tr>
+            <tr>
+                <td>PUBG</td>
+                <td>40,000 to 150,000 rupees</td>
+            </tr>
+            <tr>
+                <td>Free Fire</td>
+                <td>₹67,042/mo</td>
+            </tr>
+            <tr>
+                <td>DOTA</td>
+                <td>$104,063 per year</td>
+            </tr>
+        </table></p>
+  </div>
+
+  <script>
+    function toggleGameDetails(detailsId) {
+      var details = document.getElementById(detailsId);
+      details.style.display = details.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
